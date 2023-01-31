@@ -59,11 +59,6 @@ def setup():
     )
 
 
-def setup_hours():
-    for h in range(24):
-        Hours.objects.create(number=h)
-
-
 def orm_query():
     import sqlparse
 
